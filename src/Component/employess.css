@@ -1,0 +1,42 @@
+/* EmployeeList.css */
+
+.employee-list {
+    padding: 20px;
+  }
+  
+  .employee-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .employee-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .employee-details {
+    flex-grow: 1;
+  }
+  
+  .employee-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .employee-actions button {
+    cursor: pointer;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .employee-actions button:hover {
+    background-color: #c82333;
+  }
+  

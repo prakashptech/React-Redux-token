@@ -1,0 +1,91 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the login container takes full height of the viewport */
+  }
+  
+  .login-content {
+    flex-grow: 1; /* Allow the content to grow to fill the available space */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .login-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-content form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .login-content input[type="text"],
+  .login-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-content p {
+    margin-top: 10px;
+    color: red;
+  }
+  /* Login.css */
+
+.password-input-container {
+    position: relative;
+  }
+  
+  .password-input-container .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .password-input-container .toggle-password i {
+    color: #666;
+  }
+  
+  /* Login.css */
+
+.password-input-container {
+    position: relative;
+  }
+  
+  .password-input-container input[type="password"] {
+    padding-right: 30px; /* Space for the eye icon */
+  }
+  
+  .password-input-container .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 0.8em; /* Adjust the size of the eye icon */
+  }
+  
